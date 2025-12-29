@@ -185,18 +185,13 @@ I'd love to hear from you! Reach out through any of these channels:
 - **Business Inquiries**: [Your Business Email]
 
 ### Social Media & Professional Networks
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **Twitter/X**: [@YourTwitterHandle](https://twitter.com/yourhandle)
+- **LinkedIn**: [Alperen ERKAN]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/alperen-erkan-177037339/))
 - **GitHub**: [@Mr-Alperen](https://github.com/Mr-Alperen)
-- **Medium**: [Your Medium Profile](https://medium.com/@yourprofile)
 
-### Professional Platforms
-- **HackerOne**: [Your HackerOne Profile]
-- **Bugcrowd**: [Your Bugcrowd Profile]
-- **Linkedin**: [Professional Network]
 
 ### Contact Form
 Visit the [Contact Page](contact.html) to send a message directly.
+- e-mail : alperenerkan00@gmail.com
 
 ## 📄 License
 
