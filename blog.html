@@ -1,0 +1,95 @@
+<!--
+<! about : 
+<!
+<! file : contact.html
+<! rights: All rights belong to the public domain, open source
+<!
+<! owner : Alperen ERKAN <alperenerkan00@gmail.com>
+<! web : mr-alperen.github.io
+-->
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Blog | Alperen Erkan</title>
+
+  <!-- Meta -->
+  <meta name="description" content="Technical blog by Alperen Erkan — CVE research, OSINT, exploit analysis and system internals." />
+  <meta name="author" content="Alperen Erkan" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/blog.css" />
+</head>
+
+<body>
+
+  <!-- =====================
+       NAVBAR
+  ====================== -->
+  <header class="navbar">
+    <nav>
+      <div class="logo">
+        <span class="neon-text">ALPEREN</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- =====================
+       BLOG
+  ====================== -->
+  <main>
+    <section class="blog">
+      <h1 class="glitch" data-text="BLOG">
+        BLOG
+      </h1>
+
+      <p class="blog-intro">
+        Notes, research and technical write-ups.
+      </p>
+
+      <!-- Filters -->
+      <div class="blog-filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="cve">CVE</button>
+        <button class="filter" data-filter="osint">OSINT</button>
+        <button class="filter" data-filter="research">Research</button>
+      </div>
+
+      <!-- Blog List -->
+      <div id="blog-list" class="blog-list">
+        <!-- JS will inject posts here -->
+      </div>
+
+      <!-- Loading State -->
+      <div id="blog-loading" class="blog-loading">
+        Loading entries…
+      </div>
+
+    </section>
+  </main>
+
+  <!-- =====================
+       FOOTER
+  ====================== -->
+  <footer>
+    <p>
+      © <span id="year"></span> Alperen Erkan
+    </p>
+  </footer>
+
+  <!-- JS -->
+  <script src="/assets/js/blog.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

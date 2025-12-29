@@ -1,0 +1,178 @@
+/* =========================================================
+   BLOG PAGE STYLES
+========================================================= */
+
+.blog {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.blog-intro {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* =========================================================
+   FILTERS
+========================================================= */
+
+.blog-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.blog-filters .filter {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  padding: 0.4rem 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.blog-filters .filter:hover {
+  border-color: var(--neon-green);
+  color: var(--neon-green);
+}
+
+.blog-filters .filter.active {
+  background: rgba(0, 255, 156, 0.1);
+  border-color: var(--neon-green);
+  color: var(--neon-green);
+  box-shadow: 0 0 10px rgba(0, 255, 156, 0.15);
+}
+
+/* =========================================================
+   BLOG LIST
+========================================================= */
+
+.blog-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+/* =========================================================
+   BLOG CARD
+========================================================= */
+
+.blog-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 1.75rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(0, 255, 156, 0.08);
+}
+
+.blog-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+}
+
+.blog-card .date {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.blog-card p {
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+}
+
+/* =========================================================
+   TAGS
+========================================================= */
+
+.blog-card .tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+}
+
+.blog-card .tags span {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+}
+
+.blog-card .tags span:hover {
+  border-color: var(--neon-blue);
+  color: var(--neon-blue);
+}
+
+/* =========================================================
+   READ LINK
+========================================================= */
+
+.blog-card a {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--neon-green);
+}
+
+.blog-card a:hover {
+  text-shadow: 0 0 6px var(--neon-green);
+}
+
+/* =========================================================
+   LOADING STATE
+========================================================= */
+
+.blog-loading {
+  margin-top: 3rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  opacity: 0.7;
+  animation: blink 1.4s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 0.2; }
+  50% { opacity: 1; }
+  100% { opacity: 0.2; }
+}
+
+/* =========================================================
+   BLOG POST (INDIVIDUAL PAGE - FUTURE SAFE)
+========================================================= */
+
+.blog-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.blog-post h1 {
+  margin-bottom: 1rem;
+}
+
+.blog-post .post-meta {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.blog-post p {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
