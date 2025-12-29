@@ -1,0 +1,18 @@
+{
+  "blogs": [
+    {
+      "title": "CVE-2025-XXXX Analysis",
+      "date": "2025-01-03",
+      "tags": ["CVE", "Research", "Linux"],
+      "summary": "Sudo üzerinden local privilege escalation analizi.",
+      "file": "cve-2025-xxxx.html"
+    },
+    {
+      "title": "OSINT Methodology Notes",
+      "date": "2024-12-22",
+      "tags": ["OSINT", "Investigation"],
+      "summary": "Açık kaynak istihbaratında metodolojik yaklaşım.",
+      "file": "osint-notes.html"
+    }
+  ]
+}
