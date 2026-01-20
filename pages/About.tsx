@@ -34,7 +34,7 @@ const About: React.FC = () => {
             <div className="glassmorphism p-6 rounded-2xl border-l-4 border-l-magenta-500">
               <MapPin className="text-magenta-500 mb-3" size={24} />
               <h3 className="text-white font-bold text-xl">Location</h3>
-              <p className="text-sm text-gray-400">Turkey / Remote</p>
+              <p className="text-sm text-gray-400">Turkey / Ankara</p>
             </div>
           </div>
         </div>
